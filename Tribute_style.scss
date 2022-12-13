@@ -1,0 +1,13 @@
+$text-align:center;
+#title {
+    text-align:center;
+}
+caption {
+    text-align:$text-align;
+}
+#image {
+    max-width:100%;
+    max-height:auto;
+    align-content: center;
+    
+}
