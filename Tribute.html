@@ -4,18 +4,58 @@
         <title> 
             Tribute Page
         </title>
+       <style>
+                #title {
+                    text-align:center;
+                }
+                p {
+                    text-align:center;
+                    text-height: 30px;
+                }
+                #caption {
+                    text-align:center;
+                }
+                #image {
+                    max-width:100%;
+                    max-height:auto;
+                }
+
+                h3 {
+                    text-align:center; 
+                    line-height:30px;       
+                }
+                ul{
+                    text-align:justify;
+                    line-height:50px;
+                }
+
+                cite{
+                    text-align:center;
+                }
+                em {
+                    text-align:center;
+                }
+                #text{
+                    font-family:Arial, Helvetica, sans-serif;
+                }
+                a:hover {
+                    color:blue;
+                }
+                a {
+                    color:darkcyan;
+                }
+        </style>
     </head>
-    <body>
+    <body style="background-color:rgb(242, 242, 242);">
 <!--header, image, and caption -->
         <header>
             <h1 id="title"> Dr.Norman Borlaug</h1>
         </header>
-        <caption>The man who saved a billion lives</caption>
+        <p id="caption">A man who saved a billion lives</p>
         <img 
-        id="image" 
+        id="image"
         src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" 
-        alt="Dr.Norman Borlaug is with other men to show them the wheat."
-        >
+        alt="Dr.Norman Borlaug is with other men to show them the wheat.">
         <p> Dr. Norman Borlaug, third from the left, 
             trains biologists in Mexico on how to increase wheat yields
              - part of his life-long war on hunger.
@@ -23,7 +63,7 @@
 <!--The timelines -->
         <section id="timelines">
             <h3> Here's time line of Dr.Borlaug's life:</h3>
-            <ul type="dics">
+            <ul type="dics" id="space">
                 <li><strong>1914</strong> - Born in Cresco, Iowa</li>
                 <li><strong>1933</strong> - Leaves his family's farm to attend 
                     the University of Minnesota, thanks to a Depression era program known 
@@ -78,7 +118,7 @@
                     because "we've been genetically modifying plants and animals for a long time. 
                     Long before we called it science, people were selecting the best breeds."
                 </li>
-                <li><strong>2009</strong> - Dies at the age of 95. </li>
+                <li><strong>2009</strong> - Dies at the age of 95.</li>
             </ul>
         </section>
 <!--The quote and link-->
@@ -86,10 +126,12 @@
                     that one mans's towering intellect, persistence and scientific vision can make 
                     to human peace and progress."
                 </em>
+                <br>
                 <cite>--Idian Prime Minister Manmohan Singh</cite>
-                <h3>
+                <h3 id="end">
                     If you have time, you should read more about this incredible human being on his 
                     <a href="https://en.wikipedia.org/wiki/Norman_Borlaug"> Wikipedi Entry</a>
                 </h3>
+    <div>
     </body>
 </html>
